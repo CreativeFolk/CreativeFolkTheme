@@ -1,4 +1,4 @@
 CreativeFolkTheme
-=================
+================
 
-Wordpress Theme Version of the CreativeFolkSite
+Wordpress Theme Version of the Website
