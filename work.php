@@ -32,6 +32,7 @@
                             </ul>
                         </div>
                 </div><!-- column -->
+                wp_reset_query()
                 <?php query_posts('category_name=print'); ?>
                 <?php if (have_posts()) : ?>
                 <div class="col-xs-12">
@@ -52,6 +53,7 @@
                         </ul>
                     </div>
                 </div><!-- column -->
+                wp_reset_query()
                 <?php query_posts('category_name=identity'); ?>
                 <?php if (have_posts()) : ?>
                 <div class="col-xs-12">
