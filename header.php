@@ -53,17 +53,17 @@
             <?php if (is_single()): ?>
               <ul class="nav navbar-nav navbar-right">
                 <li style="display:none;"><a href="#welcome"></a></li>
-                <li><a href="/#about">Meet the Team</a></li>
-                <li><a href="/#services">What We Do</a></li>
-                <li><a href="/#work">Our Work</a></li>
+                <li><a href="/#about">About Us</a></li>
+                <li><a href="/#team">Meet the Team</a></li>
+                <li><a href="/#portfolio">Our Work</a></li>
                 <li><a href="/#contact">Contact</a></li>
               </ul>
             <?php else: ?>
               <ul class="nav navbar-nav navbar-right">
                 <li style="display:none;"><a href="#welcome"></a></li>
-                <li><a href="#about">Meet the Team</a></li>
-                <li><a href="#services">What We Do</a></li>
-                <li><a href="#work">Our Work</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#team">Meet the Team</a></li>
+                <li><a href="#portfolio">Our Work</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             <?php endif; ?>
