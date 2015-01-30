@@ -15,6 +15,6 @@
     <h1 class="sr-only">Welcome to Creative Folk's Online Portfolio Site</h1>
 
     <div id="handLettering">
-        <img class="welcomeImg col-xs-10 col-sm-8 col-md-6" src="img/creative_folk_handtype.png" alt="We are Creative Folk">
+        <img class="welcomeImg col-xs-10 col-sm-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/creative_folk_handtype.png" alt="We are Creative Folk">
     </div>
 </section>

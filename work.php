@@ -55,7 +55,7 @@
                     </div>
                 </div><!-- column -->
                 <?php wp_reset_query(); ?>
-                
+
                 <?php query_posts('category_name=identity'); ?>
                 <?php if (have_posts()) : ?>
                 <div class="col-xs-12">
@@ -80,4 +80,3 @@
         </div><!-- .container-fluid -->
     </section><!-- portfolio -->
 <?php wp_reset_query(); ?>
-

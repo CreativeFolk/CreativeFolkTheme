@@ -40,7 +40,8 @@ section, #team{
 #teamBack,
 #team,
 #welcome,
-.fullHeight{
+.fullHeight,
+.main-bg{
   height:100%;
 }
 
