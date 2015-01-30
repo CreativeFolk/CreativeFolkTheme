@@ -14,8 +14,9 @@
 get_header(); ?>
 
 
-<?php get_template_part( 'about' ); ?>
+<?php get_template_part( 'welcome' ); ?>
 <?php get_template_part( 'services' ); ?>
+<?php get_template_part( 'about' ); ?>
 <?php get_template_part( 'work' ); ?>
 <?php get_template_part( 'contact' ); ?>
 

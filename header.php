@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="index.html#welcome"><img src="img/logo-sm-orng.png" alt="Creative Folk"></a>
+            <a class="brand" href="/#welcome"><img src="img/logo-sm-orng.png" alt="Creative Folk"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
