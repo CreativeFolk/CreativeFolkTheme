@@ -11,7 +11,7 @@
             <h3 class="visible-md visible-lg">We make awesome stuff</h3>
         </div>
         <div class="container-fluid">
-            <?php query_posts('category_name=work'); ?>
+            <?php query_posts('category_name=web'); ?>
             <?php if (have_posts()) : ?>
                 <div class="row">
                     <div class="col-xs-12">
@@ -32,6 +32,8 @@
                             </ul>
                         </div>
                 </div><!-- column -->
+                <?php query_posts('category_name=print'); ?>
+                <?php if (have_posts()) : ?>
                 <div class="col-xs-12">
                     <h5>Print</h5>
                     <div class="row">
@@ -50,8 +52,10 @@
                         </ul>
                     </div>
                 </div><!-- column -->
+                <?php query_posts('category_name=identity'); ?>
+                <?php if (have_posts()) : ?>
                 <div class="col-xs-12">
-                    <h5>Print</h5>
+                    <h5>Identity</h5>
                     <div class="row">
                         <ul class="list-unstyled portfolioList">
                             <?php while ( have_posts() ) : the_post(); ?>
@@ -71,4 +75,5 @@
             </div><!-- .row -->
         </div><!-- .container-fluid -->
     </section><!-- portfolio -->
+    wp_reset_query()
 
