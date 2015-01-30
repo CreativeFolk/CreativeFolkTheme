@@ -36,8 +36,7 @@
 <script src="<?php bloginfo('template_directory'); ?>js/vendor/jquery.scrollTo.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>js/vendor/jquery.localScroll.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>js/vendor/skrollr.js"></script>
-
-<script src="js/main.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>js/main.js"></script>
 </body>
 </html>
 
