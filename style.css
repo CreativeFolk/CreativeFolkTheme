@@ -475,7 +475,7 @@ Portfolio
 #portfolio .container-fluid>div>div>div{
   height:100%;
   overflow:scroll;
-  margin-left:3em;
+  margin-left:3em !important;
 }
 
 .portfolioList{
