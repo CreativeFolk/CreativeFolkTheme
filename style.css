@@ -476,6 +476,7 @@ Portfolio
   height:100%;
   overflow:scroll;
   margin-left:3em !important;
+  margin-right:3em !important;
 }
 
 .portfolioList{
@@ -507,14 +508,22 @@ Portfolio
   bottom:0;
   left:0;
   width:100%;
-  height:3em;
+  height:0;
+  overflow:hidden;
   background:rgba(0,0,0,0.7);
+  transition: height 300ms;
 }
+
+.portfolioList figure:hover figcaption{
+  height:100%;
+  padding:1em;
+}
+
 /*------------------------
 Contact
 ------*/
 #contact{
-  background: url(img/barline.jpg) fixed center center;
+  background: url(img/barline-blur.jpg) fixed center center;
   background-size:cover;
   padding-top:3em;
   min-height:50em;
@@ -534,8 +543,8 @@ Contact
 }
 
 .contactHead h3{
-  color:rgb(247,141,8);
-  border-bottom-color:rgb(247,141,8);
+  color:rgba(255,255,255,0.6);
+  border-bottom-color:rgba(255,255,255,0.6);
 }
 
 .contactMain{

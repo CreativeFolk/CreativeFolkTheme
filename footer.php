@@ -20,7 +20,7 @@
      </div><!-- row -->
      <div class="row">
          <div class="info col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
-             <span><strong>Navigation</strong></span><p> <a href="#welcome">welcome</a> | <a href="#about">About Us</a> | <a href="#team">Team </a>| <a href="#portfolio">Work </a>| <a href="#contact">Contact </a>| <a href="#">Payment </a>| Careers</p>
+             <span><strong>Navigation</strong></span><p> <a href="#welcome">welcome</a> | <a href="#about">About Us</a> | <a href="#team">Team </a>| <a href="#portfolio">Work </a>| <a href="#contact">Contact</a>
          </div>
          <div class="info contact col-xs-12 col-sm-4 col-md-3">
              <span><strong> Contact Us </strong></span><p> 150 E. Exchange St.<br> Akron, OH 44311<br>Phone: 419.953.0244<br>Email: folks@creative-folk.com</p>

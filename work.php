@@ -23,10 +23,12 @@
                                 <li>
                                     <figure>
                                         <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'port-img' ) ); ?>
-                                        <figcaption>
-                                            <h4><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
-                                            <p><?php echo $blurb; ?></p>
-                                        </figcaption>
+                                        <a href="<?php the_permalink(); ?>">
+                                            <figcaption>
+                                                <h4><?php the_title();?></h4>
+                                                <p><?php echo $blurb; ?></p>
+                                            </figcaption>
+                                        </a>
                                     </figure>
                                 </li>
                             <?php endwhile; ?>
@@ -47,10 +49,12 @@
                             <li>
                                 <figure>
                                     <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'port-img' ) ); ?>
-                                    <figcaption>
-                                        <h4><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
-                                        <p><?php echo $blurb; ?></p>
-                                    </figcaption>
+                                    <a href="<?php the_permalink(); ?>">
+                                        <figcaption>
+                                            <h4><?php the_title();?></h4>
+                                            <p><?php echo $blurb; ?></p>
+                                        </figcaption>
+                                    </a>
                                 </figure>
                             </li>
                             <?php endwhile; ?>
@@ -71,10 +75,12 @@
                             <li>
                                 <figure>
                                     <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'port-img' ) ); ?>
-                                    <figcaption>
-                                        <h4><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
-                                        <p><?php echo $blurb; ?></p>
-                                    </figcaption>
+                                    <a href="<?php the_permalink(); ?>">
+                                        <figcaption>
+                                            <h4><?php the_title();?></h4>
+                                            <p><?php echo $blurb; ?></p>
+                                        </figcaption>
+                                    </a>
                                 </figure>
                             </li>
                             <?php endwhile; ?>
