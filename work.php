@@ -79,4 +79,13 @@
             </div><!-- .row -->
         </div><!-- .container-fluid -->
     </section><!-- portfolio -->
+<<<<<<< Updated upstream
 <?php wp_reset_query(); ?>
+=======
+<<<<<<< Updated upstream
+<?php wp_reset_query(); ?>
+
+=======
+    wp_reset_query()
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes

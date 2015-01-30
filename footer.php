@@ -37,6 +37,7 @@
 <script src="<?php bloginfo('template_directory'); ?>js/vendor/jquery.localScroll.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>js/vendor/skrollr.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>js/main.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
 
