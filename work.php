@@ -29,9 +29,11 @@
                                         </figcaption>
                                     </figure>
                                 </li>
+                            <?php endwhile; ?>
                             </ul>
                         </div>
                 </div><!-- column -->
+                <?php endif; ?>
                 <?php wp_reset_query(); ?>
 
                 <?php query_posts('category_name=print'); ?>
@@ -51,9 +53,11 @@
                                     </figcaption>
                                 </figure>
                             </li>
+                            <?php endwhile; ?>
                         </ul>
                     </div>
                 </div><!-- column -->
+                <?php endif; ?>
                 <?php wp_reset_query(); ?>
 
                 <?php query_posts('category_name=identity'); ?>
@@ -73,9 +77,11 @@
                                     </figcaption>
                                 </figure>
                             </li>
+                            <?php endwhile; ?>
                         </ul>
                     </div>
                 </div><!-- column -->
+                <?php endif; ?>
             </div><!-- .row -->
         </div><!-- .container-fluid -->
     </section><!-- portfolio -->
